@@ -8,7 +8,7 @@ To run this model, you can run the cells in the jupyter notebook from start to f
 
 ## Unused Model
 ### Drugs Personality Model
-This model is meant to find out if there is a connection between consumption of certain drugs with personality measurements. It can be found in drugs_personality_model.ipynb. There are five different models: MLPRegression(Alcohol, Amphet, Cannabis, Coke, Ecstacy, LSD, Meth, and Mushrooms vs Personality Measurements), MLPRegression(Specific Drug vs Personality Measurements), Linear Regression, SVR(kernel=rbf), and SVR(kernel=linear). Due to low accuracies from these models, the Drugs Personality Model cannot be used for prediction of a person's personality from their drug use.
+This model is meant to find out if there is a connection between consumption of certain drugs with personality measurements. It can be found in drugs_personality_model.ipynb. These certain drugs were selected for this model: Alcohol, Amphet, Cannabis, Coke, Ecstacy, LSD, Meth, and Mushrooms. There are five different models: MLPRegression(Certain Drugs vs Personality Measurements), MLPRegression(Certain Drugs vs One Specific Personality Measurement), Linear Regression, SVR(kernel=rbf), and SVR(kernel=linear). Due to low accuracies from these models, the Drugs Personality Model cannot be used for prediction of a person's personality from their drug use.
 
 ## How to Run
 description of how to run the code
