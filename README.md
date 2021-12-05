@@ -1,5 +1,4 @@
 # Predicting Drug Consumption
-Overview of proj
 ## Models
 ### Gateway Drug Model
 This model is meant to find out if there is a connection between marijuana, alcohol, and hard drug use. It can be found in gateway_drug_model.ipynb. There are three different models, but the one we chose to be in our UI is the third model, an SVM. There is also a grid search for this SVM towards the end of the file.
