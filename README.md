@@ -2,9 +2,13 @@
 
 ## Models
 
+### Personality Model
+
+Insert desc here
+
 ### Personality + Demographic Model
 
-This model is trying to find how the personality and demographic related to lcohol, amphetamines, cannabis, coke, ecstasy, LSD, meth, and mushrooms. We use multilayer perceptron for this model and we use grid search to test the quality and assurance.
+This model tries to find how personality and demographic attributes are related to Alcohol, amphetamines, cannabis, coke, ecstasy, LSD, meth, and mushrooms. We use a multilayer perceptron for this model and we use grid search to get the optimal hyperparameters.
 
 ### Gateway Drug Model
 
