@@ -135,8 +135,7 @@ def predictPersonality():
         messages.append(model.predict(df))
 
     for idx in range(len(messages)):
-        l = list(messages[idx][0])
-        if l[1] == 0:
+        if messages[idx][0] == 0:
             messages[idx] = "Never Have Used"
         else:
             messages[idx] = "Have Used Before"
@@ -180,10 +179,8 @@ def predictDemographic():
     for idx in range(len(messages)):
         if messages[idx][0] == 0:
             messages[idx] = 'Never Have Used'
-        #elif messages[idx][0] == 1:
-            #messages[idx] = 'Seldom User (within the last decade)'
         else:
-            messages[idx] = 'Recent User (within the last year)'
+            messages[idx] = 'Have Used Before'
 
     selected_substances = ['Alcohol', 'Amphet', 'Cannabis', 'Coke', 'Ecstasy', 'LSD', 'Meth', 'Mushrooms']
     for index, substance in enumerate(selected_substances):
