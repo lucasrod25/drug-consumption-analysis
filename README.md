@@ -4,7 +4,9 @@
 
 ### Personality Model
 
-Insert desc here
+The personality model uses personality metrics as evaluated by the NEO-FFI-R, such as extraversion or neuroticism to predict usage of alcohol, amphetamines, cannabis, coke, ecstasy, LSD, meth, and mushrooms.
+
+To run this model, run all cells up to and including the cell below "Use These Models." The models will be stored in the array ```models```, indexed according to the order of drugs given above. Alternatively, load the models from the personalityModels folder.
 
 ### Personality + Demographic Model
 
