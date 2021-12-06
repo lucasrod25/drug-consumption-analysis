@@ -4,7 +4,7 @@
 
 ### Personality + Demographic Model
 
-This model is trying to find how the personality and demographic related to lcohol, amphetamines, cannabis, coke, ecstasy, LSD, meth, andmushrooms. We use multilayer perceptron for this model and we use grid search to test the quality and assurance.
+This model is trying to find how the personality and demographic related to lcohol, amphetamines, cannabis, coke, ecstasy, LSD, meth, and mushrooms. We use multilayer perceptron for this model and we use grid search to test the quality and assurance.
 
 ### Gateway Drug Model
 
@@ -25,7 +25,6 @@ This model is meant to find out if there is a connection between consumption of 
 1. Download the following dependencies: <br/>
    joblib, <br/>
    Flask <br/>
-   <br/>
 2. Open project in IDE. <br/>
 3. Type `export FLASK_APP=pyFlask` in terminal. <br/>
 4. Type `export FLASK_ENV=debug` in terminal. <br/>
